@@ -1,4 +1,4 @@
-import type { Task, Status, CollabUser } from "../../types"
+import type { Task, CollabUser } from "../../types"
 import { PriorityBadge }    from "../shared/PriorityBadge"
 import { AssigneeAvatar }   from "../shared/AssigneeAvatar"
 import { CollabAvatars }    from "../shared/CollabAvatars"

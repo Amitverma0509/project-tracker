@@ -15,7 +15,7 @@ interface Props {
 }
 
 export function KanbanColumn({
-  status, title, tasks, color,
+   title, tasks, color,
   draggingId, isOver, collabUsers,
   onPointerEnter, onPointerLeave, onCardPointerDown,
 }: Props) {
