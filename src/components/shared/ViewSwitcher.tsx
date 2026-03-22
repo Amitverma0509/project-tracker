@@ -1,11 +1,10 @@
 import { useStore } from "../../store/useStore"
 import type { ViewType } from "../../types"
 
-// Each tab has a label and an icon (just emoji for simplicity)
 const VIEWS: { id: ViewType; label: string; icon: string }[] = [
   { id: "kanban",   label: "Kanban",   icon: "â¬œ" },
   { id: "list",     label: "List",     icon: "â˜°"  },
-  { id: "timeline", label: "Timeline", icon: "í³…" },
+  { id: "timeline", label: "Timeline", icon: "ðŸ“…" },
 ]
 
 export function ViewSwitcher() {
